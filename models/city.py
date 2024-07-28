@@ -20,5 +20,3 @@ class City(BaseModel, Base):
     else:
         state_id = ""
         name = ""
-
-INSERT INTO states(id, created_at, updated_at, name) VALUES ("421a55f1-7d82-45d9-b54c-a76916479545","2017-03-25 19:42:40","2017-03-25 19:42:40","Alabama");
