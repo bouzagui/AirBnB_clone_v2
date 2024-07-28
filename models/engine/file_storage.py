@@ -56,4 +56,5 @@ class FileStorage:
                 del self.__objects[key]
 
     def close(self):
+        """documentation lol"""
         self.reload()
